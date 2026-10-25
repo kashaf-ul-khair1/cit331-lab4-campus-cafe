@@ -22,9 +22,9 @@ body {
   cursor: pointer;
 }
  
-.notes {
+.note {
   font-style: italic;
-  color: #999999;
+  color: #555555;
 }
 
 
