@@ -16,3 +16,5 @@ HTML5, CSS3 and JavaScript.
 ## Author
 Kashaf Ul Khair Khalid, Roll no: 24l-bscs-0037
 
+**Live site:** https://kashaf-ul-khair.github.io/cit331-lab4-campus-cafe/
+**Repository:** https://github.com/kashaf-ul-khair1/cit331-lab4-campus-cafe.git
