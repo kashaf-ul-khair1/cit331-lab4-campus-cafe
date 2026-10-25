@@ -14,6 +14,9 @@
 
 This website uses HTTP because I am running it on my computer using Live Server. HTTPS protects data sent over a network while my local website is running on my own computer.
 
+## Specificity experiment
+The #main p selector is stronger than .hero p, so the paragraph becomes red. When I change #main p to main p, the paragraph becomes white because .hero p is stronger.
+
 ## Selectors I used
 
 | Selector kind | Example from my CSS |
@@ -30,5 +33,3 @@ This website uses HTTP because I am running it on my computer using Live Server.
 | Pseudo-class | `a:hover` |
 | Pseudo-element | `.menu-group h2::before` |
 
-## Specificity experiment
-The #main p selector is stronger than .hero p, so the paragraph becomes red. When I change #main p to main p, the paragraph becomes white because .hero p is stronger.
