@@ -68,11 +68,7 @@ h1 + p {
 }
  
 /* ---------- 4. Header and navigation ---------- */
-.site-header {
-  background: var(--brand-dark);
-  color: #fff;
-  padding: 12px 24px;
-}
+
 .brand {
   color: #fff;
   text-decoration: none;
@@ -137,9 +133,8 @@ h1 + p {
   cursor: pointer;
 }
 .btn:hover {
-  background: var(--brand-dark);
-  border-color: var(--brand-dark);
-  color: #fff;
+  background-color: var(--brand-dark);
+  border-color: #ffffff;
 }
 .btn-secondary {
   background: transparent;
@@ -260,12 +255,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
 /* ---------- 10. Positioning ---------- */
  
 /* sticky: stays at the top while the page scrolls */
-.site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
- 
+
 /* absolute: placed inside its nearest positioned parent */
 .menu-item { position: relative; }
 .badge {
@@ -316,13 +306,7 @@ input[placeholder]:not(:placeholder-shown):invalid {
 }
 
 /* ---------- 11. Flexbox: header, nav, footer ---------- */
-.site-header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
+
 .brand {
   display: flex;
   align-items: center;
@@ -408,6 +392,20 @@ fieldset.choice {
  
 .saved-orders { margin-top: 40px; }
 .table-wrap { overflow-x: auto; margin-bottom: 16px; }
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--brand-dark);
+  color: #fff;
+  padding: 12px 24px;
+}
 
 /* ---------- 14. Responsive ---------- */
 img {
