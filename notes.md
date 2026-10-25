@@ -47,3 +47,18 @@ The #main p selector is stronger than .hero p, so the paragraph becomes red. Whe
 | 8 | Semicolon was missing after the button hover background. | CSS inspection | Added the semicolon. |
 | 9 | CSS selector `.notes` did not match HTML class `.note`. | CSS inspection | Changed `.notes` to `.note`. |
 | 10 | Note text had low contrast. | Accessibility improvement | Changed `#999999` to `#555555`. |
+
+
+## Live site observations (Lab 4, Task 7)
+
+### 1. Localhost vs Live Site
+My local website uses HTTP, but my live website uses HTTPS. The server and remote address are different because localhost runs on my computer while the live website runs on gitHub Pages.
+
+### 2. HTTPS and Security
+The padlock shows that the connection is secure and the certificate is valid. If the website used HTTP someone on the same Wi-Fi could read or change the data sent between the user and the website.
+
+### 3. Local Storage
+The saved orders table was empty on the live website because localhost and the live website save data separately. Orders saved on my computer do not appear automatically on the live website.
+
+### 4. Missing Page
+The missing page showed error 404, which means the page was not found. The response came from the website's server.
